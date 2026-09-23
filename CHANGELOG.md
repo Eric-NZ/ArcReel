@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.31.1](https://github.com/ArcReel/ArcReel/compare/v0.31.0...v0.31.1) (2026-09-23)
+
+
+### 🐛 Bug 修复
+
+* **config:** 无参考图单元的时长档位改用 i2v 桶模型解析 ([569fd0e](https://github.com/ArcReel/ArcReel/commit/569fd0e1e539b25c17653a8d351a562f2a0118c4)), closes [#2305](https://github.com/ArcReel/ArcReel/issues/2305)
+* **config:** 无参考图档位在未存分辨率时按供应商兜底档位求值 ([3507e59](https://github.com/ArcReel/ArcReel/commit/3507e5940a95d9e4f782caadda6d4d8b8f84a70c))
+
+
+### ♻️ 重构
+
+* **frontend:** allowed_without_reference_images 契约放宽为可空 ([b078b77](https://github.com/ArcReel/ArcReel/commit/b078b777b98996d7cfe02d4036d272debb8ef295)), closes [#2305](https://github.com/ArcReel/ArcReel/issues/2305)
+
+
+### 📚 文档
+
+* **contributing:** clarify how promotional contributions are handled ([#2646](https://github.com/ArcReel/ArcReel/issues/2646)) ([7ceb0a4](https://github.com/ArcReel/ArcReel/commit/7ceb0a4750c9fbabb9e5bf73cede7976f9132daf))
+* **frontend:** 标注参考图约束按视频单元生效 ([23feb72](https://github.com/ArcReel/ArcReel/commit/23feb7251c4918ff4e7f3010ec94129625533db4)), closes [#2305](https://github.com/ArcReel/ArcReel/issues/2305)
+* **readme:** 新增 Star History 图表 ([#2649](https://github.com/ArcReel/ArcReel/issues/2649)) ([76637b1](https://github.com/ArcReel/ArcReel/commit/76637b183712297f13d6dc5c3fa3bc9d5276ab36))
+* **readme:** 新增界面一览与案例，更新首页截图 ([#2647](https://github.com/ArcReel/ArcReel/issues/2647)) ([ae90169](https://github.com/ArcReel/ArcReel/commit/ae90169c3300b32cd3b200484e1b55c27e155852))
+* **readme:** 裁掉 hero 与广告截图边缘的窗口白边 ([#2648](https://github.com/ArcReel/ArcReel/issues/2648)) ([bc2035a](https://github.com/ArcReel/ArcReel/commit/bc2035aeb9ba7b408fda78dba31f257d7b42b418))
+
 ## [0.31.0](https://github.com/ArcReel/ArcReel/compare/v0.30.0...v0.31.0) (2026-09-23)
 
 ### 🌟 版本亮点
